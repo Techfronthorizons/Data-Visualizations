@@ -1,0 +1,88 @@
+.upload-container {
+    text-align: center;
+    margin-top: 60px;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .upload-container h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(45deg, #007acc, #00c6ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Ensures color compatibility */
+    margin-bottom: 0.5rem;
+  }
+  
+  .upload-container p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #e0e0e0;
+  }
+  
+  .dropzone {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 15px;
+    border: 2px dashed #00c6ff;
+    background: linear-gradient(145deg, #1f1f2e, #292a3a);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .dropzone.active {
+    background: linear-gradient(145deg, #1c1c2a, #242534);
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 198, 255, 0.4);
+  }
+  
+  .dropzone p {
+    font-size: 1.1rem;
+    color: #00c6ff;
+    transition: color 0.3s ease;
+  }
+  
+  .dropzone:hover p {
+    color: #ffffff;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #0d0d24, #3a3b5a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .upload-container h1 {
+      font-size: 2rem;
+    }
+  
+    .dropzone {
+      padding: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .upload-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .upload-container p,
+    .dropzone p {
+      font-size: 1rem;
+    }
+  
+    .dropzone {
+      padding: 30px;
+    }
+  }
+  
