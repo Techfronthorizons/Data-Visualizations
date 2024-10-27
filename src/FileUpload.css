@@ -86,3 +86,47 @@
     }
   }
   
+  .data-preview {
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  
+  .data-preview table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .data-preview th,
+  .data-preview td {
+    border: 1px solid #00c6ff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .data-preview th {
+    background-color: #292a3a;
+    color: #00c6ff;
+  }
+  
+  .data-preview tr:nth-child(even) {
+    background-color: #1f1f2e;
+  }
+  
+  .data-preview tr:hover {
+    background-color: #3a3b5a;
+  }
+  
+  .visualization-controls {
+    margin-top: 20px;
+  }
+  
+  .visualization-controls label {
+    margin-right: 15px;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
